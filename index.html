@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="app.css">
+    <!-- fontawesome/icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--gfonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Medula+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&family=Protest+Guerrilla&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- aos animate -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div id="container">
+        <!--navbar-->
+        <nav>
+            <img class="logo" src="images\p-logo-letter-business-corporate-design-vector-removebg-preview.png"
+                alt="no images">
+            <!--links-->
+            <ul>
+                <li class="list-item"><a class="links" href="#home">Home</a></li>
+                <li class="list-item"><a class="links" href="#about">About</a></li>
+                <li class="list-item"><a class="links" href="#skills">Skills</a></li>
+                <li class="list-item"><a class="links" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!--home-->
+        <section id="home">
+
+            <div class="homeContent">
+                <h1 class="animate__animated animate__flash"id="username">Im <span id="firstname">Pranav</span> T Pramod</h1>
+                <p id="userdetails">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    <br>Accusantium cum facilis facere? Aut, dolor,
+                </p>
+                <a id="download" href="./PRANAV T PRAMOD.pdf" download="">Download CV</a>
+            </div>
+            <!--images-->
+            <div class="homeImage" data-aos="fade-down-left">
+                <img class="group1" id="bg" src="./images/bg-removebg-preview.png" alt="">
+                <img class="group1" id="girl" src="./images/person.png" alt="">
+            </div>
+        </section>
+        <!--about me-->
+        <section id="about">
+            <div class="sectionHead">
+                <h2 class="mainhead">About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <div class="aboutContent">
+
+                <div class="aboutImage" data-aos="fade-down-right">
+                    <img class="img1" src="./images/about.png" alt="no image">
+                </div>
+
+                <div class="informations">
+                    <div class="infocontent">
+                        <p class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
+                            repellendus cumque perspiciatis doloribus explicabo dolor voluptatibus dolorum quia odio ab
+                            eligendi facere minima veritatis, quas dicta quo, sapiente, hic animi?
+                        </p>
+                    </div>
+                    <div class="infoBox">
+                        <div class="contact">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <span>PRANAV T PRAMOD</span>
+                        </div>
+                        <div class="contact">
+                            <i class="fa fa-phone-square" aria-hidden="true"></i>
+                            <span>9605509023</span>
+                        </div>
+                        <div class="contact">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <span>pranavtpramod007@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--skills-->
+        <!-- Skill -->
+        <section id="skills">
+            <div class="sectionHead">
+                <h2 class="mainhead">Skills</h2>
+                <span class="subHead">My skills</span>
+            </div>
+            <div class="skillContent">
+                <div class="progressBars">
+                    <div class="bars">
+                        <h3 class="barHead">HTML</h3>
+                        <span class="barPercent">89%</span>
+                        <div class="baseBar"></div>
+                        <div class="baseBar htmlbar" data-aos="fade-right"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">CSS</h3>
+                        <span class="barPercent">83%</span>
+                        <div class="baseBar"></div>
+                        <div class="baseBar cssbar" data-aos="fade-right"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">JS</h3>
+                        <span class="barPercent">71%</span>
+                        <div class="baseBar"></div>
+                        <div class="baseBar jsbar"data-aos="fade-right"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">REACT</h3>
+                        <span class="barPercent">79%</span>
+                        <div class="baseBar"></div>
+                        <div class="baseBar reactbar"data-aos="fade-right"></div>
+                    </div>
+                </div>
+                <div class="skillImage"data-aos="fade-left">
+                    <img width="100%" class="mySkill" src="./images/skills.jpeg" alt="skills">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="sectionHead">
+                <h2 class="mainhead">Contacts</h2>
+                <span class="subHead">My Contacts</span>
+            </div>
+            <div class="iconcollections">
+                <!-- linkedin -->
+                <div class="cbaricon">
+                    <a href="" target="_blank"><i class="fa-brands fa-linkedin-in brands"></i></a>
+                </div>
+                <!-- github -->
+                <div class="cbaricon">
+                    <a href="" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- instagram -->
+                <div class="cbaricon">
+                    <a href="" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <!-- facebook -->
+                <div class="cbaricon">
+                    <a href="" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+                </div>
+                <!-- twitter -->
+                <div class="cbaricon">
+                    <a href="" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+                </div>
+                <!-- whatsapp  -->
+                <div class="cbaricon">
+                    <a href="" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+            </div>
+        </section>
+        <!--footer-->
+        <footer>
+            <p id="copyright">
+                &copy; My portfolio website- september 2024, All rights reserved to Author.&reg;
+            </p>
+        </footer>
+        <div id="uparrow">
+            <a href="#container"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+        </div>
+
+    </div>
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
